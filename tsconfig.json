@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ES2022", "DOM"],
+    // "watch": true,
+    // "removeComments": true,
+    // "allowJs": true,
+    // "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    // "forceConsistentCasingInFileNames": true,
+    // "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    // "resolveJsonModule": true,
+    // "isolatedModules": true,
+    // "noEmit": true,
+    "rootDir": "./",
+    "outDir": "./build",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useDefineForClassFields": false,
+    // "declaration": true
+    // "sourceMap": true,
+    "baseUrl": "."
+    // "paths": {
+    //   "@models": ["./models"],
+    //   "@middlewares": ["./middlewares"],
+    //   "@controllers": ["./controllers"],
+    //   "@routes": ["./routes"],
+    //   "@services": ["./services"]
+    // }
+  },
+  "exclude": ["node_modules", "build"],
+  "include": ["**/*.ts"],
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}

@@ -1,0 +1,6 @@
+/node_modules
+.env
+/build
+yarn-error.log
+yarn.lock
+package-lock.json
